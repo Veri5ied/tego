@@ -90,16 +90,6 @@ Configuration:
   Tego reads from .tegorc.json, .tegorc, tego.json, tego.toml, 
   or tego.yaml in your project root.
 
-JavaScript/TypeScript:
-  npm install --save-dev tego-kit
-  npx tego init
-  npx tego install
-
-Python:
-  pip install tego
-  tego init
-  tego install
-
 Learn more: https://github.com/veri5ied/tego
 `
 	fmt.Print(help)
