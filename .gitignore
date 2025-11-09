@@ -1,6 +1,6 @@
-# Binaries
-tego
-tego.exe
+# Binaries (only in root and dist)
+/tego
+/tego.exe
 *.exe
 dist/
 *.tar.gz
