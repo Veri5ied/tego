@@ -1,0 +1,33 @@
+# Binaries
+tego
+tego.exe
+*.exe
+dist/
+*.tar.gz
+*.zip
+
+# Go
+*.test
+*.out
+vendor/
+
+# Node
+node_modules/
+npm/bin/tego
+npm/bin/tego.exe
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test files
+coverage.txt
+*.cover
