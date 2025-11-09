@@ -17,28 +17,30 @@ Tego is built as a single native binary written in Go, offering fast execution a
 
 ## Installation
 
-### Download Binary
-
-Download the appropriate binary for your platform from the [releases page](https://github.com/veri5ied/tego/releases).
-
-**Linux/macOS:**
+### macOS (Apple Silicon)
 
 ```bash
-curl -L https://github.com/veri5ied/tego/releases/download/v1.0.0/tego-linux-amd64 -o tego
-chmod +x tego
+curl -L https://github.com/Veri5ied/tego/releases/download/v1.0.0/tego-1.0.0-darwin-arm64.tar.gz | tar xz
 sudo mv tego /usr/local/bin/
 ```
 
-**Windows:**
-Download `tego-windows-amd64.exe` from releases and add to your PATH.
-
-### Build from Source
+### macOS (Intel)
 
 ```bash
-git clone https://github.com/veri5ied/tego.git
-cd tego
-go build -o tego cmd/tego/main.go
+curl -L https://github.com/Veri5ied/tego/releases/download/v1.0.0/tego-1.0.0-darwin-x86_64.tar.gz | tar xz
+sudo mv tego /usr/local/bin/
 ```
+
+### Linux
+
+```bash
+curl -L https://github.com/Veri5ied/tego/releases/download/v1.0.0/tego-1.0.0-linux-x86_64.tar.gz | tar xz
+sudo mv tego /usr/local/bin/
+```
+
+### Windows
+
+Download [tego-1.0.0-windows-x86_64.tar.gz](https://github.com/Veri5ied/tego/releases/download/v1.0.0/tego-1.0.0-windows-x86_64.tar.gz), extract, and add to PATH.
 
 ## Quick Start
 
